@@ -30,7 +30,7 @@ ReactDOM.render(
 			authStore={AuthStore}
 			domain="dev-zbvoq0un.us.auth0.com"
 			client_id="ojunM7dbWmnO0Pc5VQTJlkFrwj1VhRdm"
-			redirect_uri={window.location.origin}
+			redirect_uri={`${window.location.origin}/callback`}
 			onRedirectCallback={onRedirectCallback}
 		>
 			<App />
