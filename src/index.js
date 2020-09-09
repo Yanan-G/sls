@@ -28,9 +28,9 @@ ReactDOM.render(
 	>
 		<Auth0Provider
 			authStore={AuthStore}
-			domain={process.env.REACT_APP_AUTH0_DOMAIN}
-			client_id={process.env.REACT_APP_AUTH0_CLIENT_ID}
-			redirect_uri="https://amazing-engelbart-fc70b6.netlify.app/callback"
+			domain="dev-zbvoq0un.us.auth0.com"
+			client_id="ojunM7dbWmnO0Pc5VQTJlkFrwj1VhRdm"
+			redirect_uri={window.location.origin}
 			onRedirectCallback={onRedirectCallback}
 		>
 			<App />
